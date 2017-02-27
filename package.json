@@ -1,0 +1,36 @@
+{
+  "name": "template-node",
+  "version": "0.0.1",
+  "description": "A template project for Twilio projects developed in Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abhijitmehta/template-node.git"
+  },
+  "keywords": [
+    "twilio",
+    "node",
+    "template"
+  ],
+  "author": "Abhijit Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhijitmehta/template-node/issues"
+  },
+  "homepage": "https://github.com/abhijitmehta/template-node",
+  "dependencies": {
+    "twilio": "*",
+    "express": "^4.5.1",
+    "morgan": "^1.1.1",
+   "node-schedule" : "*",
+   "body-parser" : "*"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "chai": "^1.9.1",
+    "request": "^2.37.0"
+  }
+}
